@@ -20,7 +20,3 @@ module.exports = {
     ]
   },
 };
-
-setTimeout(function() {
-  open('./index.html')
-}, 5000)
