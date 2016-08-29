@@ -1,0 +1,139 @@
+/* Global */
+body {
+   font-family: 'Jigsaw Medium';
+   color: #707070;
+   background: url("https://cdn2.hubspot.net/hubfs/642447/LabelInsight_May2016/Images/illustration_1A.png?t=1470065298832") left 0 top 100px/50% no-repeat,#373d46 url("https://cdn2.hubspot.net/hubfs/642447/LabelInsight_May2016/Images/bgGridBlue.png?t=1470065298832") repeat 0 0;
+}
+
+a {
+   text-decoration: none;
+}
+
+.container {
+   margin: 0 auto;
+   width: 80%;
+}
+
+.fa {
+   cursor: pointer;
+}
+
+.fa-times:hover {
+   color: #000000;
+}
+
+.fa-pencil:hover {
+   color: #d59120;
+}
+
+.fa-check:hover {
+   color: #2bb24c;
+}
+
+.light {
+   font-family: 'Jigsaw Light';
+}
+
+.loader {
+   font-size: 50px;
+   text-align: center;
+   margin-top: 200px;
+}
+
+
+.grid {
+   margin: 50px 0;
+}
+
+.photos {
+   padding: 0;
+   display: flex;
+   flex-wrap: wrap;
+}
+
+.photo {
+   flex:1 1 auto;
+   width: 20%;
+   vertical-align: top;
+   cursor: pointer;
+   text-align: center;
+   margin: 10px 0;
+   padding: 10px 0;
+   background: #fff;
+   list-style: none;
+}
+
+.photo:hover {
+   transition: all 0.75s ease;
+   background: #ccc;
+}
+
+.full-photo {
+   position: relative;
+   width: auto;
+   margin: 45px auto 0 auto;
+   background: #fff;
+   outline: 0;
+   padding: 20px;
+   text-align: center;
+   min-width: 680px;
+}
+
+.full-photo .close {
+   position: absolute;
+   top: 5px;
+   right: 10px;
+}
+
+.full-photo .title {
+   font-size: 22px;
+   font-weight: 200;
+   margin: 5px;
+}
+
+.full-photo .description {
+   font-size: 14px;
+   font-style: italic;
+}
+
+.full-photo .description-input {
+   outline: 0;
+   background: transparent;
+   box-shadow: none;
+   border: 0;
+   padding: 5px;
+   min-width: 300px;
+   border-bottom: 3px solid #000;
+}
+
+.full-photo .description-edit {
+   margin-left: 10px;
+}
+
+
+
+
+/* Media Queries */
+@media (max-width: 1040px) {
+   .photo {
+      width: 25%;
+   }
+}
+
+@media (max-width: 800px) {
+   .photo {
+      width: 33%;
+   }
+}
+
+@media (max-width: 600px) {
+   .photo {
+      width: 50%;
+   }
+}
+
+@media (max-width: 400px) {
+   .photo {
+      width: 100%;
+   }
+}
