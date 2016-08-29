@@ -2,7 +2,8 @@
 Label Insight coding challenge
 
 #Install
-`npm install && npm start`
+1) `npm install && npm start`
+2) Open `index.html` in your browser
 
 #Versions
 Node: `6.2.1`
